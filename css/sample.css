@@ -265,14 +265,11 @@ h1 {
   padding: 40px 0;
   background-image: url("../images/news/sub_cover.jpg");
   background-size: cover;
-  /*retina表示*
-  @media screen and (-webkit-min-device-pixel-ratio:2),
-                    (min-resolution: 2dppx){
-                        
-  background-image: url("../images/top/sub_cover@2x.jpg");
-  
-  }
+  /*retina表示*/
   /*retina表示*/ }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    #sub_cover {
+      background-image: url("../images/top/sub_cover@2x.jpg"); } }
   #sub_cover h2 {
     font-size: 16px;
     font-size: 1.6rem;

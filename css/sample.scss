@@ -442,7 +442,7 @@ h1{
     background-image: url("../images/news/sub_cover.jpg"); 
     background-size: cover;
 
-    /*retina表示*
+    /*retina表示*/
     @media screen and (-webkit-min-device-pixel-ratio:2),
                       (min-resolution: 2dppx){
                           
@@ -598,10 +598,19 @@ h1{
         
         li{
           background-image: url("../images/news/side_arrow.png");
+          
+          /*retina表示*/
+          @media screen and (-webkit-min-device-pixel-ratio:2),
+                            (min-resolution: 2dppx){
+                          
+          background-image: url("../images/top/side_arrow@2x.png");
+    
+          }
+          /*retina表示*/          
+          
           background-repeat: no-repeat;
           background-position: 8px 50%;
           background-size: 4px 8px;
-          
           
           border-bottom: #e5e5e5 solid 1px;
           padding: 10px 10px 10px 20px;
